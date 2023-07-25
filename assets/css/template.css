@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #202124;
+    color: #fff;
+}
+
+
+/*Header---------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    display: center;
+    padding-top: 25px;
+}
+
+header .google-logo {
+    margin-right: 45px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .space-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 210px;
+}
+
+header .google-logo {
+    margin: 0px 45px 0px 25px;
+}
+
+header .container .icon {
+    margin: 0px 11px 0px 11px;
+}
+
+header .icons {
+    display: flex;
+    align-items: center;
+}
+
+header .customizing-search {
+    background: #303134;
+    width: 690px;
+    height: 45px;
+    padding: 0px 10px 0px 20px;
+    border-radius: 25px;
+}
+
+header .customizing-search:hover {
+    box-shadow: 0 0 15px 2px #00000033;
+}
+
+header .input-search {
+    width: 480px;
+    background-color: transparent;
+    color: #fff;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+header .edit-profile-picture img {
+    border-radius: 16px;
+    margin: 4px;
+}
+
+header .edit-profile-picture {
+    margin: 0px 24px 0px 4px;
+}
+
+header .edit-view-app-grid {
+    margin: 0px 4px 0px 4px;
+}
+
+header .edit-gear-icon {
+    margin: 0px 4px 0px 24px;
+}
+
+header .profile-picture,
+header .view-app-grid,
+header .gear-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+header .profile-picture:hover,
+header .view-app-grid:hover,
+header .gear-icon:hover {
+    background-color: #313134;
+}
+
+/*Header---------------------------*/
+
+
+/*Main---------------------------*/
+
+/*Main---------------------------*/
+
+
+/*Footer---------------------------*/
+
+footer {
+    height: 1000px;
+}
+
+/*Footer---------------------------*/
